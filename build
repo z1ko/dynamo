@@ -1,4 +1,4 @@
 #!/bin/bash
 
 mkdir -p bin
-g++ src/main.cpp -Isrc -o bin/dynamo
+g++ src/main.cpp src/state.cpp src/integrator.cpp src/system.cpp -Isrc -o bin/dynamo
