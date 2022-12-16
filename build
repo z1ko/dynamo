@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mkdir -p bin
+g++ src/main.cpp -Isrc -o bin/dynamo
